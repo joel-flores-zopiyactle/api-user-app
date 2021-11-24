@@ -1,0 +1,35 @@
+{
+  "name": "apirestfull",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "ts:node": "ts-node ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "4.17.13",
+    "bcryptjs": "2.4.3",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "express-validator": "6.13.0",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "6.0.13"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "2.4.2",
+    "@types/cors": "2.8.12",
+    "@types/jsonwebtoken": "8.5.6",
+    "@types/mongoose": "5.11.97",
+    "@types/node": "16.11.8",
+    "nodemon": "2.0.15",
+    "ts-node": "10.4.0",
+    "typescript": "4.5.2"
+  }
+}
